@@ -2,40 +2,23 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## 开始
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```bash
+npm install
+npm run start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 部署
 
-### Build
+使用 vercel 部署，直接推送修改到 master 分支，会自动部署。
 
-```
-$ yarn build
-```
+链接：
+<https://ext.jgrass.cc/>
+<https://extension-manager-docs.vercel.app/>
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 手动部署
 
-### Deployment
+1 使用 `npm run build` 生成静态文件，然后自行部署。
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+2 使用 `npm run deploy`, Docusaurus 会自动生成静态文件，然后部署到 github pages。
