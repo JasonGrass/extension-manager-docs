@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: "img/extension-manager-social-card.png",
       navbar: {
-        title: "扩展管理器（Extension Manager）",
+        title: "Extension Manager",
         logo: {
           alt: "Site Logo",
           src: "img/logo.png",
@@ -74,9 +74,9 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "文档",
+            label: "💬 文档",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "📰 Blog", position: "left" },
           {
             href: "https://github.com/JasonGrass/auto-extension-manager",
             label: "GitHub",
