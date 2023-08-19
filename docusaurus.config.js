@@ -42,7 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/JasonGrass/extension-manager-docs/tree/master/docs",
+            "https://github.com/JasonGrass/extension-manager-docs/tree/master/",
         },
         blog: {
           showReadingTime: true,
