@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "JasonGrass", // Usually your GitHub org/user name.
-  projectName: "auto-extension-manager", // Usually your repo name.
+  projectName: "extension-manager-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
