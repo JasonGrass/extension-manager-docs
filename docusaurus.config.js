@@ -62,7 +62,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/extension-manager-social-card.png",
       navbar: {
         title: "扩展管理器（Extension Manager）",
         logo: {
