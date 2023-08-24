@@ -109,8 +109,8 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Buy me a coffee",
+                to: "separate/buy-me-a-coffee",
               },
               {
                 label: "GitHub",
