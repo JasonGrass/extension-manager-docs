@@ -3,8 +3,7 @@ slug: buy-me-a-coffee
 title: Buy me a coffee
 ---
 
-import AliPayImage from "./img/2023-08-24-17-19-48.png";
-import WeChatImage from "./img/2023-08-24-17-20-06.png";
+import SponsorPayImage from "./img/sponsor.png";
 
 # Buy me a coffee
 
@@ -12,7 +11,7 @@ import WeChatImage from "./img/2023-08-24-17-20-06.png";
 
 Thank you for your support, would you like treat me to a cup of coffee~ ❤️
 
-export const Highlight = () => (
+export const SponsorImage = () => (
   <div
     style={{
       display: "flex",
@@ -24,20 +23,10 @@ export const Highlight = () => (
     }}
   >
     <img
-      src={AliPayImage}
+      src={SponsorPayImage}
       style={{
-        width: "260px",
-        height: "400px",
-        minWidth: "50px",
-        minHeight: "80px",
-        flex: "0 1 auto",
-      }}
-    ></img>
-    <img
-      src={WeChatImage}
-      style={{
-        width: "293px",
-        height: "400px",
+        width: "800px",
+        height: "480px",
         minWidth: "50px",
         minHeight: "80px",
         flex: "0 1 auto",
@@ -46,7 +35,7 @@ export const Highlight = () => (
   </div>
 );
 
-<Highlight></Highlight>
+<SponsorImage></SponsorImage>
 
 ![](./img/2023-08-24-17-20-32.png)
 
