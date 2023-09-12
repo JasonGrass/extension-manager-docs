@@ -11,11 +11,11 @@ title: 💾 存储说明
 
 但浏览器对可以跟随账号同步的数据，有存储大小的限制。具体见：[chrome.storage - Chrome Developers](https://developer.chrome.com/docs/extensions/reference/storage/ )
 
-每一个存储项，不能够超过 8KB。
+每一个存储项，不能够超过 8KB，总大小不能超过 100KB。
 
-本扩展使用压缩的方法，增加了实际可以存储的数据量，应该基本够用。
+本扩展使用了 <https://github.com/dtuit/chrome-storage-largeSync> 中的方法，让单项存储可以超过 8KB，但总存储大小，依旧必须小于 100KB。
 
-在关于页面显示的，就是压缩之后占用的大致空间大小。每一项都不能超过 8KB，否则保存会失败。
+在关于页面显示的，就是当前已经使用的存储总大小，超过 100KB 配置保存会失败。
 
 ## 本地存储
 
