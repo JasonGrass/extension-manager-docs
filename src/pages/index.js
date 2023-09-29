@@ -11,7 +11,7 @@ function HomepageHeader() {
   return (
     <div className={clsx(styles.heroBanner)}>
       <div className="container">
-        <img src={Logo} alt="logo" width={200} />
+        <img src={Logo} alt="logo" style={{ marginBottom: 36 }} width={200} />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
