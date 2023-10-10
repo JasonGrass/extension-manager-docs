@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Extension Manager",
-  tagline: "一个可以自由配置规则的 Chrome 扩展管理工具",
+  tagline: "一个可以自由配置规则的浏览器扩展管理工具",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
