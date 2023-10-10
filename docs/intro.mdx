@@ -80,15 +80,20 @@ Extension Manager 是一个用于浏览器扩展管理的扩展。
 
 本扩展在使用过程中，需要的浏览器权限。
 
-- `读取您的浏览记录`
+#### `读取您的浏览记录`
 
-目的是读取打开的标签页的中的 URL, 根据当前 URL 来进行规则和匹配和执行
+目的是读取打开的标签页的中的 URL, 根据当前 URL 来进行规则和匹配和执行。并不会读取您的历史记录（也无法读取，因为没有申请相关的权限）。
 
-> 本插件管理工具不收集任何您的浏览记录，所有的规则判断都在本地运行
+:::tip
+本扩展管理工具不收集任何您的浏览记录，所有的规则判断都在本地运行
+:::
 
-[chrome.tabs - Chrome Developers](https://developer.chrome.com/docs/extensions/reference/tabs/)
+技术上，使用的接口是 `chrome.tabs`, 读取当前打开标签页的 URL, 所对应的权限是 `tabs`；  
+历史记录相关的接口是 `chrome.history`, 所对应的权限是 `history`。
 
-- `管理您的应用、扩展程序和主题背景`
+详见：[API reference - Chrome for Developers](https://developer.chrome.com/docs/extensions/reference/)
+
+#### `管理您的应用、扩展程序和主题背景`
 
 用于获取安装的插件列表，并根据规则禁用或者启用指定的扩展
 
